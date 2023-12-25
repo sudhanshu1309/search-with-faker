@@ -1,15 +1,17 @@
-import { useState } from "react";
+// import { useState } from "react";
 import "../../styles/home.scss";
 import Logo from "./Logo";
 import Search from "./Search";
+import OnSearch from "./OnSearch";
 
 const Home = () => {
-  const [searchVal, setSearchVal] = useState("");
+  // const [searchVal, setSearchVal] = useState("");
 
   return (
     <>
       <Logo />
       <Search />
+      <OnSearch />
     </>
   );
 };
